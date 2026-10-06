@@ -7,65 +7,72 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
   <body>
-    <footer class="max-w-[1680px] w-full bg-black text-[#F9F9F9] px-[80px]">
-      <!-- ID -->
-      <section class="flex justify-between items-center mt-[128px]">
-        <h1 class="w-[790px] text-[80px] uppercase">
-          Design News to your inbox
-        </h1>
-        <div class="gap-[12px] flex justify-end">
-          <a
-            class="bg-[#FFFFFF] w-[310px] text-[#00000099] text-[16px]"
-            href="#"
-            >Email</a
-          >
-          <button
-            class="w-[104px] text-[14px] text-[#000000] bg-[#FFFFFF] uppercase"
-          >
-            Sign Up
+    <footer class="w-full bg-black text-[#F9F9F9]">
+      <div class="max-w-[1680px] mx-auto px-[80px]">
+        <!-- ID -->
+        <div class="flex justify-between items-center pt-[128px]">
+          <h1 class="max-w-[790px] text-[80px] uppercase leading-[110%]">
+            Design News to your inbox
+          </h1>
+          <div class="gap-[12px] flex justify-end">
+            <input
+              type="text"
+              placeholder="Email"
+              class="bg-[#FFFFFF] w-[310px] text-[#00000099] text-[16px] py-[10px] pl-[15px]"
+            />
+            <a
+              class="w-[104px] text-[14px] text-[#000000] bg-[#FFFFFF] uppercase flex items-center justify-center"
+              href="#"
+            >
+              Sign Up
+            </a>
+          </div>
+        </div>
+        <!-- about -->
+        <div class="flex justify-between mt-[128px]">
+          <div>
+            <img
+              class="w-[210px] h-[18-px]"
+              src="./images/logo.svg"
+              alt="logo"
+            />
+          </div>
+          <div class="text-[16px] gap-[64px] flex">
+            <div class="w-[294px] border-t border-[#FFFFFF26] pt-[24px]">
+              <ul class="flex flex-col gap-[12px]">
+                <li>Art</li>
+                <li>Design</li>
+                <li>Architecture</li>
+              </ul>
+            </div>
+            <div class="w-[294px] border-t border-[#FFFFFF26] pt-[24px]">
+              <ul class="flex flex-col gap-[12px]">
+                <li>Magazine</li>
+                <li>Podcast</li>
+                <li>Authors</li>
+              </ul>
+            </div>
+            <div class="w-[294px] border-t border-[#FFFFFF26] pt-[24px]">
+              <ul class="flex flex-col gap-[12px]">
+                <li>Styleguide</li>
+                <li>Licensing</li>
+                <li>Changelog</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- socoal -->
+        <div class="flex justify-between mt-[96px] pb-[36px]">
+          <button class="text-[14px]">
+            © Made by Pawel Gola - Powered by Webflow
           </button>
+          <nav class="flex justify-end gap-[12px]">
+            <a href="#"><img src="./images/insta.svg" alt="instagram" /></a>
+            <a href="#"><img src="./images/twitter.svg" alt="twitter" /></a>
+            <a href="#"><img src="./images/youtube.svg" alt="youtube" /></a>
+            <a href="#"><img src="./images/rss.svg" alt="rss" /></a>
+          </nav>
         </div>
-      </section>
-      <!-- about -->
-      <div class="flex justify-between mt-[128px]">
-        <div>
-          <img class="w-[210px] h-[18-px]" src="./images/logo.svg" alt="logo" />
-        </div>
-        <div class="text-[16px] gap-[64px] flex">
-          <div class="w-[294px] border-t border-[#FFFFFF26]">
-            <ul>
-              <li>Art</li>
-              <li>Design</li>
-              <li>Architecture</li>
-            </ul>
-          </div>
-          <div class="w[294-px] border-t border-[#FFFFFF26]">
-            <ul>
-              <li>Magazine</li>
-              <li>Podcast</li>
-              <li>Authors</li>
-            </ul>
-          </div>
-          <div class="w[294-px] border-t border-[#FFFFFF26]">
-            <ul>
-              <li>Styleguide</li>
-              <li>Licensing</li>
-              <li>Changelog</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <!-- socoal -->
-      <div class="flex justify-between mt-[96px] mb-[36px]">
-        <button class="text-[14px]">
-          © Made by Pawel Gola - Powered by Webflow
-        </button>
-        <nav class="flex justify-end gap-[12px]">
-          <a href="#"><img src="./images/insta.svg" alt="instagram" /></a>
-          <a href="#"><img src="./images/twitter.svg" alt="twitter" /></a>
-          <a href="#"><img src="./images/youtube.svg" alt="youtube" /></a>
-          <a href="#"><img src="./images/rss.svg" alt="rss" /></a>
-        </nav>
       </div>
     </footer>
   </body>
